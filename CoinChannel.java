@@ -17,7 +17,7 @@ public final class CoinChannel {
      *            The device at the output end of the channel.
      */
     public CoinChannel(AbstractCoinAcceptor sink) {
-	this.sink = sink;
+	this.sink = sinkC;
     }
 
     /**
